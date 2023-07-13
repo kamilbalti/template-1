@@ -74,7 +74,7 @@
 }
 @media screen and (max-width: 600px) {
 .beachPic{
-    height: 22.9vh;
+    width: 100%;
 }
 .yellowHead{
     display: none;
@@ -89,12 +89,17 @@
 .row{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
+    margin-top: 0;
+    margin: 0;
+    /* padding: 0; */
 }
 .childDiv{
     padding: 7.5px 0;
+    width: 89%;
 }
 .image{
-    height: 217px;
+    height: 175px;
 }
 }
