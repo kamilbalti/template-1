@@ -4,27 +4,28 @@
     box-sizing: border-box;
 }
 .beachPic{
-    background-image: url('https://www.w3schools.com/w3images/beach3.jpg');
-    background-size: cover;
     width: 100%;
-    height: 101.8vh;
-    display: flex;
-    align-items: flex-end;
 }
-.yellowHead{
+.headDiv{
     position: absolute;
     bottom: 8.4%;
     left: 0;
-    background-color: rgb(255, 208, 0);
-    opacity: 0.6;
     width: 70% !important;
-    padding: 10px 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    line-height: 45px;
+    box-sizing: inherit;
+    padding: 0.01em 16px;
+    background-color: #ffc107;
+    opacity: 0.7;
 }
-.yellowHead:hover{
-    background-color: orange;
+.yellowHead{
+    box-sizing: inherit;
+    line-height: 1.5;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.headDiv:hover{
+    background-color: #ff9800;
 }
 .parentDiv{
     display: flex;
@@ -32,34 +33,32 @@
     padding-bottom: 50px;
 }
 .row{
-    width: 100%;
+    width: 99.99%;
     display: flex;
     flex-direction: row;
     margin: 0;
-    padding: 0;
-    padding-left: 32px;
+    padding: 0.01em 16px;
+    margin: 50px 0 18px;
 }
 .childDiv{
+    padding: 0.01em 16px;
     display: flex;
     width: 50%;
     flex-direction: column;
-    padding: 50px 32px 17px 0;
 }
 .image{
-    width: 99.9%;
-    border-top: 6px orange solid;
+    border-top: 6px #ff9800 solid;
 }
 .heading{
-    letter-spacing: 0.53px;
-    margin: 13px 0 19px;
+    letter-spacing: 0.48px;
+    margin: 13.5px 0 20.5px;
     font-size: 29px;
     font-weight: 400;
     font-family: "Segoe UI",Arial,sans-serif;
 }
 .para{
-    font-family: "Segoe UI",Arial,sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.5px;
+    font-family: verdana,sans-serif;
+    font-size: 15px;
 }
 @media screen and (max-width: 600px) {
 .beachPic{
@@ -73,8 +72,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 0;
-    padding-bottom: 63px;
+    padding-bottom: 50px;
 }
 .row{
     display: flex;
