@@ -3,19 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+.firstDiv{
+    position: relative !important;
+    /* margin-bottom: -10px; */
+}
 .beachPic{
     width: 100%;
 }
 .headDiv{
     position: absolute;
-    bottom: 8.4%;
+    bottom: 10%;
     left: 0;
     width: 70% !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: inherit;
-    padding: 0.01em 16px;
+    padding: 0 16px;
     background-color: #ffc107;
     opacity: 0.7;
+    margin: 4px 0;
+    line-height: 1.5;
 }
 .yellowHead{
     box-sizing: inherit;
@@ -31,14 +37,17 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
+    /* margin-top: 23px; */
 }
 .row{
     width: 99.99%;
     display: flex;
     flex-direction: row;
-    margin: 0;
     padding: 0.01em 16px;
-    margin: 50px 0 18px;
+    margin: 46px 0 18px;
+}
+.row2{
+    margin: 50px 0 17px;
 }
 .childDiv{
     padding: 0.01em 16px;
@@ -47,6 +56,9 @@
     flex-direction: column;
 }
 .image{
+    border-top: 6px #ffc107 solid;
+}
+.orangeBorder{
     border-top: 6px #ff9800 solid;
 }
 .heading{
